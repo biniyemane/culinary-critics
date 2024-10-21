@@ -1,0 +1,26 @@
+# Node modules for both frontend and backend
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Build directories for frontend (Vite, React) and backend
+dist/
+build/
+
+# Environment variables
+.env
+
+# Ignore frontend specific files
+/frontend/node_modules
+/frontend/dist
+
+# Ignore backend specific files
+/backend/node_modules
+/backend/build
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
